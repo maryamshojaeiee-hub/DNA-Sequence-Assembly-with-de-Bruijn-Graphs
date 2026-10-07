@@ -6,7 +6,7 @@ Project for the course "Advanced Programming in Python", Master of Statistics an
 
 Read the full report → · View the code → · View the tests →
 
-About the Project
+## About the Project
 
 Sequencing machines cannot read a long DNA molecule in one go. Instead, the DNA is cut into short fragments that are read separately and then pieced back together using their overlaps. This project implements that assembly step:
 
@@ -17,22 +17,22 @@ Assembly: an Eulerian path is found with Hierholzer's algorithm, implemented fro
 
 The program also saves a plot of the de Bruijn graph, and the main functions are covered by unit tests.
 
-Example: for the input DNA_2_5, the cleaned fragments produced a graph with 26 nodes and 40 edges, which was assembled into the sequence TTAATTACTCACTACGCACTGGGTCACTGGCTAATTACTCACTG.
+*Example:* for the input `DNA_2_5`, the cleaned fragments produced a graph with 26 nodes and 40 edges, which was assembled into the sequence `TTAATTACTCACTACGCACTGGGTCACTGGCTAATTACTCACTG`.
 
-How to Run
+## How to Run
+Place the input file in a folder called `csv-files` next to the script. File names follow the pattern `DNA_x_k.csv`, where `x` is the dataset number and k the k-mer size. Set `file_name` in `main_codes.py` (e.g. `file_name = "DNA_2_5"`) and run:
 
-Place the input file in a folder called csv-files next to the script. File names follow the pattern DNA_x_k.csv, where x is the dataset number and k the k-mer size. Set file_name in main_codes.py (e.g. file_name = "DNA_2_5") and run:
-
-
+```bash
 pip install pandas numpy networkx matplotlib
 python main_codes.py
-
+```
 The reconstructed sequence is saved as DNA_x.txt and the graph as DNA_x.png. To run the tests:
 
 ```bash
 pip install pytest
 pytest test.py
 ```
+
 ## Tools
 Python, pandas, NumPy, NetworkX, Matplotlib, pytest
 
