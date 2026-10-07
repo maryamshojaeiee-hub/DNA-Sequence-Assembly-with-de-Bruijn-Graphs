@@ -4,7 +4,7 @@ Reconstructing a DNA sequence from short, overlapping fragments, a core problem 
 
 Project for the course "Advanced Programming in Python", Master of Statistics and Data Science, Hasselt University, 2024–2025.
 
-[Read the full report →]() · [View the code →](https://maryamshojaeiee-hub.github.io/DNA-Sequence-Assembly-with-de-Bruijn-Graphs/main_codes.py) · [View the tests →](https://maryamshojaeiee-hub.github.io/DNA-Sequence-Assembly-with-de-Bruijn-Graphs/test.py) 
+[Read the full report →](https://maryamshojaeiee-hub.github.io/DNA-Sequence-Assembly-with-de-Bruijn-Graphs/report.pdf) · [View the code →](https://maryamshojaeiee-hub.github.io/DNA-Sequence-Assembly-with-de-Bruijn-Graphs/main_codes.py) · [View the tests →](https://maryamshojaeiee-hub.github.io/DNA-Sequence-Assembly-with-de-Bruijn-Graphs/test.py) 
 
 
 ## About the Project
