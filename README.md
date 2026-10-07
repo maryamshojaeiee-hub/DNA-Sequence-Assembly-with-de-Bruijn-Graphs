@@ -4,7 +4,8 @@ Reconstructing a DNA sequence from short, overlapping fragments, a core problem 
 
 Project for the course "Advanced Programming in Python", Master of Statistics and Data Science, Hasselt University, 2024–2025.
 
-Read the full report → · View the code → · View the tests →
+[Read the full report →]() · [View the code →]() · [View the tests →]() 
+
 
 ## About the Project
 
